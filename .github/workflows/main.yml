@@ -35,4 +35,4 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: deploying on surge
-      run: surge ./build http://myfirstreact_app.surge.sh/ --token ${{Secrets.SURGE_TOKEN}}
+      run: surge ./build http://qamarfirstreactapp.surge.sh/ --token ${{Secrets.SURGE_TOKEN}}
